@@ -1,13 +1,17 @@
 .Header {
   display: flex;
   flex-direction: column;
-  background-image: url(/public/images/pattern-bg.png);
-
-  height: 250px;
+  background-image: url("/public/images/pattern-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right 50%;
+  height: 325px;
 }
-
 .Header h1 {
   display: flex;
   justify-content: center;
-  color: rgb(217, 217, 217);
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
 }

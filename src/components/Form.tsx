@@ -1,10 +1,18 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 import "./Form.css";
 
 const Form = () => {
   const [ipAddressInput, setIpAddressInput] = useState("");
+  const submitHandler = (e: FormEvent) => {
+    //prevent page refresh:
+    e.preventDefault();
+
+    //clear form:
+    setIpAddressInput("");
+  };
   return (
-    <form className="Form">
+    <form className="Form" onSubmit={submitHandler}>
+      <label htmlFor="ip-address-input"></label>
       <input
         type="text"
         name="ip-address-input"
