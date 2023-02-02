@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: top right 50%;
   height: 250px;
+  z-index: 1;
 }
 .Header h1 {
   display: flex;

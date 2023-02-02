@@ -1,7 +1,7 @@
 import "./Map.css";
 
 const Map = () => {
-  return <div className="Map">Map works</div>;
+  return <div className="Map"></div>;
 };
 
 export default Map;

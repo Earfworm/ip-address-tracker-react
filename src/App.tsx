@@ -1,3 +1,4 @@
+import "./App.css";
 import Header from "./components/Header";
 import IpAddressInfo from "./components/IpAddressInfo";
 import Map from "./components/Map";
