@@ -5,4 +5,5 @@ export interface UserIpAddressInfo {
     region: string;
     timezone: string;
   };
+  isp: string;
 }
